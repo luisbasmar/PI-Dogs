@@ -1,0 +1,43 @@
+.contenedor{
+  width: 80%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.conteiner{
+  display: flex;
+  justify-content:center;
+ 
+}
+.search {
+  border:none;
+  padding: 60px;
+  border-radius: 5px;
+  width: 130px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  margin-top: 12px;
+  margin-left: 130px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  
+  transition: width 0.4s ease-in-out;
+}
+
+.search:focus {
+  width: 20%;
+}
+
+.btn{
+  background-color: rgb(219, 160, 82);
+  padding-top: 2px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+

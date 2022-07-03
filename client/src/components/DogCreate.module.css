@@ -1,0 +1,81 @@
+.container__card{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+input[type=text], select {
+   border:none;
+   padding: 6px;
+   border-radius: 5px;
+   
+ }
+
+input[type=text]:focus {
+   background-color: rgba(192, 161, 58, 0.788);
+   border-color: rgb(228, 169, 8);
+   border-radius: 5px;
+ }
+
+ label, h3{
+    border-radius: 5px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: rgba(192, 161, 58, 0.788);
+    margin-right: 15px;
+ }
+ .title{
+   color: rgb(112, 67, 13);
+ }
+.error{
+   color: rgba(214, 49, 49, 0.795);
+   font-weight: bold;
+   background-color: black;
+   padding: 2px;
+}
+.button{
+   background-color: rgb(219, 160, 82);
+   border: none;
+   border-radius: 5px;
+   font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   padding: 6px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   width: 100%;
+}
+li{
+   list-style-image: url("./imgs/laughing.png");
+   color: black;
+   font-weight: bold;
+   margin-right: 4px;
+}
+.x{
+   border: none;
+   border-radius: 10px;
+   background-color: rgba(206, 54, 54, 0.856);
+   color: white;
+   font-weight: bold;
+}
+.goBack{
+   background-color: rgb(148, 100, 38);
+   border: none;
+   border-radius: 5px;
+   font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+   padding: 3px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   width: 100%;
+   
+}
+
+.tempList{
+   background-color: rgba(184, 131, 50, 0.865);
+   width: fit-content;
+}

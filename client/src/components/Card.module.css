@@ -1,0 +1,55 @@
+.container{
+    width: 17rem;
+    height: 22rem;
+    margin: 15px;
+    background-color: rgba(226, 195, 57, 0.603);
+    box-shadow: 0px 0px 10px 2px black;
+    border-radius: 15px;
+    opacity: 0.9;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    
+    color: rgb(255, 255, 255);
+    position:relative;
+    padding: 4px;
+    
+}
+.container a > img{
+    box-shadow: 0px 0px 5px 5px rgba(143, 84, 24, 0.877);
+    width: 200px;
+    height: 8rem;
+    border-radius: 10px;
+    padding-top: 5px;
+    
+}
+.container > a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+}
+
+h2,h4,u, p{
+    color: black;
+    font-weight: bold;
+}
+u{
+    margin-bottom: 2px;
+}
+img{
+    margin-top: 3px;
+}
+h2{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+p{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
